@@ -1,5 +1,5 @@
 # NLPCC 2017 新闻标题分类
-
+### ***预训的embedding 放在[百度云](https://pan.baidu.com/s/1mhPddpu)，可以自行下载。
 ## 代码运行环境
 python2.7 (最好用anaconda2)<br>
 tensorflow1.0.0 gpu版本或者cpu版本<br>
