@@ -1,7 +1,8 @@
 # NLPCC 2017 新闻标题分类
 ### ***预训的embedding 放在[百度云](https://pan.baidu.com/s/1mhPddpu)，可以自行下载。
 ### 测试集已经放在/test目录下。也可以通过百度云下载[测试集](https://pan.baidu.com/s/1qXYzB5a)。
-测试结果应该按照测试样本顺序保存在result.txt文件中（一行一个标签），以附件的形式发送到邮箱 task2@nlpcc2017.info。
+测试结果应该**严格按照测试样本顺序**保存在result.txt文件中（一行一个标签，参考test/test.example文件格式），以附件的形式发送到邮箱 task2@nlpcc2017.info。
+
 
 ## 代码运行环境
 python2.7 (最好用anaconda2)<br>
