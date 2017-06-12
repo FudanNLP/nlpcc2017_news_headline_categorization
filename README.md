@@ -121,3 +121,14 @@ train.txt, test.txt, dev.txt分别是训练集，测试集以及开发集。id2t
  `helper.py`: 加载数据，加载辞典，计算准确度等等。<br>
 ### `model.py`: 模型代码。
 > 如果需要增加或者修改模型，可以在Model类中的`add_model()`函数中添加一个新的模型模块，或者修改已经有的模型(lstm_basic, cnn_basic, cbow_basic)。
+
+## 引用
+
+```
+@InProceedings{qiu2017overview,
+  Title                    = {Overview of the NLPCC 2017 Shared Task: Chinese News Headline Categorization},
+  Author                   = {Xipeng Qiu and Jingjing Gong and Xuanjing Huang},
+  Booktitle                = {arXiv:1706.02883v1},
+  Year                     = {2017}
+}
+```
