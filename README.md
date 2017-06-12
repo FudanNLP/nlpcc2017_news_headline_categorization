@@ -1,8 +1,4 @@
 # NLPCC 2017 新闻标题分类
-### ***预训的embedding 放在[百度云](https://pan.baidu.com/s/1mhPddpu)，可以自行下载。
-### 测试集已经放在/test目录下。也可以通过百度云下载[测试集](https://pan.baidu.com/s/1qXYzB5a)。
-测试结果应该**严格按照测试样本顺序**保存在result.txt文件中（一行一个标签，参考test/test.example文件格式），以附件的形式发送到邮箱 task2@nlpcc2017.info。
-
 
 ## 代码运行环境
 python2.7 (最好用anaconda2)<br>
@@ -111,6 +107,10 @@ train.txt, test.txt, dev.txt分别是训练集，测试集以及开发集。id2t
 > 注意test.txt并没有给出来，可以复制一份dev.txt成test.txt，或者直接改一下config文件
 
 给出的数据是总数据的30%，train跟dev比例为2:1. 其余的70%将会当作测试数据，会在截止日前一周发布。
+
+***预训的embedding 放在[百度云](https://pan.baidu.com/s/1mhPddpu)，可以自行下载。<br>
+测试集已经放在/test目录下。也可以通过百度云下载[测试集](https://pan.baidu.com/s/1qXYzB5a)。<br>
+测试结果应该**严格按照测试样本顺序**保存在result.txt文件中（一行一个标签，参考test/test.example文件格式），以附件的形式发送到邮箱 task2@nlpcc2017.info。<br>
 
 ## 代码描述
 	├── Config.py
